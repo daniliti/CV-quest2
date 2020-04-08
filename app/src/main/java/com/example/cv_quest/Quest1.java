@@ -10,14 +10,14 @@ import android.widget.Button;
 import android.widget.Toast;
 public class Quest1 extends AppCompatActivity {
 
- /*   public void showToast(View view) {
+   public void showToast(View view) {
         //создаём и отображаем текстовое уведомление
         Toast toast = Toast.makeText(getApplicationContext(),
                 "Пора покормить кота!",
                 Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
-    }*/
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
