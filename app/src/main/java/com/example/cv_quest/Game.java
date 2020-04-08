@@ -14,7 +14,15 @@ public class Game extends AppCompatActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-        Button Game= findViewById(R.id.Game);
+        final Button Game= findViewById(R.id.Game);
+        Button Exit=findViewById(R.id.Exit);
+        Exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent e = new Intent(Game.this, com.example.cv_quest.Game.class);
+                startActivity(e);finish();
+            }
+        });
         Game.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

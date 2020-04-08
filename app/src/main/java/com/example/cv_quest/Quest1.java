@@ -28,7 +28,7 @@ public class Quest1 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Quest1.this, Covid19.class);
+               showToast(null); Intent i = new Intent(Quest1.this, Covid19.class);
                 startActivity(i);
             }
         });
