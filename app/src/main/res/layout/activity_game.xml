@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1EE"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Game"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/play"
+        android:textSize="36sp"></Button>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:layout_marginBottom="300dp"
+        android:background="#05AE0C"
+        android:text="@string/exit"
+        android:textSize="36sp" />
+</LinearLayout>
