@@ -7,9 +7,10 @@
     tools:context=".Second">
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="showToast"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

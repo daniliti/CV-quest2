@@ -20,7 +20,7 @@ public class Game extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent e = new Intent(Game.this, com.example.cv_quest.Game.class);
-                startActivity(e);finish();
+                moveTaskToBack(true); finish();
             }
         });
         Game.setOnClickListener(new View.OnClickListener() {
