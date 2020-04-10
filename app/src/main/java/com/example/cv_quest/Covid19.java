@@ -15,7 +15,10 @@ public class Covid19 extends AppCompatActivity {
     public void showToast(View view) {
         //создаём и отображаем текстовое уведомление
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Пора покормить кота!",
+                "С целью профилактики:" +
+                        "правильно питайтесь" +
+                        "употребляйте достаточное количество витоминов" +
+                        "особенно витаминов С",
                 Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();

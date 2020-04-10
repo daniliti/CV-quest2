@@ -14,7 +14,10 @@ public class Second extends AppCompatActivity {
     public void showToast(View view) {
         //создаём и отображаем текстовое уведомление
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Пора покормить кота!",
+                "Приобретение продуктов в магазинах" +
+                        " В первую очередь необходимо уточнить," +
+                        " какие продукты уже есть у вас дома и составить список с учетом рекомендуемых суточных норм потребления. " +
+                        "При планировании важно соблюдать принципы сбалансированного рациона питания.",
                 Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();

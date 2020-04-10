@@ -13,7 +13,9 @@ public class Quest1 extends AppCompatActivity {
    public void showToast(View view) {
         //создаём и отображаем текстовое уведомление
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Пора покормить кота!",
+                "КАКОВЫ СИМПТОМЫ ГРИППА/КОРОНАВИРУСНОЙ ИНФЕКЦИИ" +
+                        " высокая температура тела, озноб, головная боль, слабость, заложенность носа, кашель, затрудненное дыхание, боли в мышцах, конъюнктивит." +
+                        "  В некоторых случаях могут быть симптомы желудочно-кишечных расстройств: тошнота, рвота, диарея.  \n",
                 Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
